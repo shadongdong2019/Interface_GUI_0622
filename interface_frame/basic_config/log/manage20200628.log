@@ -1,0 +1,373 @@
+2020-06-28 11:14:25,698 [ERROR] [F:\github\Interface_GUI_0622\venv\lib\site-packages\django\core\handlers\exception.py] [handle_uncaught_exception ][django.request:118]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\github\Interface_GUI_0622\venv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\github\Interface_GUI_0622\venv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\github\Interface_GUI_0622\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\github\Interface_GUI_0622\interface_frame\views.py", line 102, in main_GUI
+    from interface_frame import case_test_common
+  File "F:\github\Interface_GUI_0622\interface_frame\case_test_common.py", line 14, in <module>
+    from interface_frame.basic_config.common.interface_run import InterfaceRun
+  File "F:\github\Interface_GUI_0622\interface_frame\basic_config\common\interface_run.py", line 1, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+2020-06-28 11:20:38,007 [ERROR] [F:\github\Interface_GUI_0622\venv\lib\site-packages\django\core\handlers\exception.py] [handle_uncaught_exception ][django.request:118]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\github\Interface_GUI_0622\venv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\github\Interface_GUI_0622\venv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\github\Interface_GUI_0622\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\github\Interface_GUI_0622\interface_frame\views.py", line 102, in main_GUI
+    from interface_frame import case_test_common
+  File "F:\github\Interface_GUI_0622\interface_frame\case_test_common.py", line 20, in <module>
+    from interface_frame.basic_config.common.cmp_res_req import CmpReqRes
+  File "F:\github\Interface_GUI_0622\interface_frame\basic_config\common\cmp_res_req.py", line 3, in <module>
+    from jsonpath import jsonpath
+ModuleNotFoundError: No module named 'jsonpath'
+2020-06-28 11:25:35,095 [ERROR] [F:\github\Interface_GUI_0622\venv\lib\site-packages\django\core\handlers\exception.py] [handle_uncaught_exception ][django.request:118]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\github\Interface_GUI_0622\venv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\github\Interface_GUI_0622\venv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\github\Interface_GUI_0622\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\github\Interface_GUI_0622\interface_frame\views.py", line 102, in main_GUI
+    from interface_frame import case_test_common
+  File "F:\github\Interface_GUI_0622\interface_frame\case_test_common.py", line 20, in <module>
+    from interface_frame.basic_config.common.cmp_res_req import CmpReqRes
+  File "F:\github\Interface_GUI_0622\interface_frame\basic_config\common\cmp_res_req.py", line 3, in <module>
+    from jsonpath import jsonpath
+ModuleNotFoundError: No module named 'jsonpath'
+2020-06-28 13:07:22,768 [ERROR] [F:\github\Interface_GUI_0622\venv\lib\site-packages\django\core\handlers\exception.py] [handle_uncaught_exception ][django.request:118]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\github\Interface_GUI_0622\venv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\github\Interface_GUI_0622\venv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\github\Interface_GUI_0622\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\github\Interface_GUI_0622\interface_frame\views.py", line 102, in main_GUI
+    from interface_frame import case_test_common
+  File "F:\github\Interface_GUI_0622\interface_frame\case_test_common.py", line 19, in <module>
+    from interface_frame.basic_config.common.cmp_res_req import CmpReqRes
+  File "F:\github\Interface_GUI_0622\interface_frame\basic_config\common\cmp_res_req.py", line 4, in <module>
+    from InterfaceTest.basic_config.common.interface_run import InterfaceRun
+ModuleNotFoundError: No module named 'InterfaceTest.basic_config'
+2020-06-28 13:31:11,009 [ERROR] [F:\github\Interface_GUI_0622\venv\lib\site-packages\django\core\handlers\exception.py] [handle_uncaught_exception ][django.request:118]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\github\Interface_GUI_0622\venv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\github\Interface_GUI_0622\venv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\github\Interface_GUI_0622\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\github\Interface_GUI_0622\interface_frame\views.py", line 102, in main_GUI
+    from interface_frame import case_test_common
+  File "F:\github\Interface_GUI_0622\interface_frame\case_test_common.py", line 19, in <module>
+    from interface_frame.basic_config.common.cmp_res_req import CmpReqRes
+  File "F:\github\Interface_GUI_0622\interface_frame\basic_config\common\cmp_res_req.py", line 10, in <module>
+    from interface_frame.basic_config.utils.ElasticObj import ElasticObj
+  File "F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\ElasticObj.py", line 12, in <module>
+    from elasticsearch import Elasticsearch
+ModuleNotFoundError: No module named 'elasticsearch'
+2020-06-28 13:32:14,447 [ERROR] [F:\github\Interface_GUI_0622\venv\lib\site-packages\django\core\handlers\exception.py] [handle_uncaught_exception ][django.request:118]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\github\Interface_GUI_0622\venv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\github\Interface_GUI_0622\venv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\github\Interface_GUI_0622\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\github\Interface_GUI_0622\interface_frame\views.py", line 102, in main_GUI
+    from interface_frame import case_test_common
+  File "F:\github\Interface_GUI_0622\interface_frame\case_test_common.py", line 19, in <module>
+    from interface_frame.basic_config.common.cmp_res_req import CmpReqRes
+  File "F:\github\Interface_GUI_0622\interface_frame\basic_config\common\cmp_res_req.py", line 10, in <module>
+    from interface_frame.basic_config.utils.ElasticObj import ElasticObj
+  File "F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\ElasticObj.py", line 13, in <module>
+    from elasticsearch_dsl import Search
+ModuleNotFoundError: No module named 'elasticsearch_dsl'
+2020-06-28 13:40:23,339 [ERROR] [F:\developtool\python36\lib\site-packages\django\utils\log.py] [log_response ][django.request:228]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\github\Interface_GUI_0622\interface_frame\views.py", line 102, in main_GUI
+    from interface_frame import case_test_common
+  File "F:\github\Interface_GUI_0622\interface_frame\case_test_common.py", line 19, in <module>
+    from interface_frame.basic_config.common.cmp_res_req import CmpReqRes
+  File "F:\github\Interface_GUI_0622\interface_frame\basic_config\common\cmp_res_req.py", line 3, in <module>
+    from jsonpath import jsonpath
+ModuleNotFoundError: No module named 'jsonpath'
+2020-06-28 13:41:38,247 [ERROR] [F:\developtool\python36\lib\site-packages\django\utils\log.py] [log_response ][django.request:228]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\github\Interface_GUI_0622\interface_frame\views.py", line 102, in main_GUI
+    from interface_frame import case_test_common
+  File "F:\github\Interface_GUI_0622\interface_frame\case_test_common.py", line 19, in <module>
+    from interface_frame.basic_config.common.cmp_res_req import CmpReqRes
+  File "F:\github\Interface_GUI_0622\interface_frame\basic_config\common\cmp_res_req.py", line 3, in <module>
+    from jsonpath import jsonpath
+ModuleNotFoundError: No module named 'jsonpath'
+2020-06-28 13:42:55,441 [ERROR] [F:\developtool\python36\lib\site-packages\django\utils\log.py] [log_response ][django.request:228]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\github\Interface_GUI_0622\interface_frame\views.py", line 102, in main_GUI
+    from interface_frame import case_test_common
+  File "F:\github\Interface_GUI_0622\interface_frame\case_test_common.py", line 19, in <module>
+    from interface_frame.basic_config.common.cmp_res_req import CmpReqRes
+  File "F:\github\Interface_GUI_0622\interface_frame\basic_config\common\cmp_res_req.py", line 10, in <module>
+    from interface_frame.basic_config.utils.ElasticObj import ElasticObj
+  File "F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\ElasticObj.py", line 12, in <module>
+    from elasticsearch import Elasticsearch
+ModuleNotFoundError: No module named 'elasticsearch'
+2020-06-28 13:44:27,877 [ERROR] [F:\developtool\python36\lib\site-packages\django\utils\log.py] [log_response ][django.request:228]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\github\Interface_GUI_0622\interface_frame\views.py", line 102, in main_GUI
+    from interface_frame import case_test_common
+  File "F:\github\Interface_GUI_0622\interface_frame\case_test_common.py", line 19, in <module>
+    from interface_frame.basic_config.common.cmp_res_req import CmpReqRes
+  File "F:\github\Interface_GUI_0622\interface_frame\basic_config\common\cmp_res_req.py", line 10, in <module>
+    from interface_frame.basic_config.utils.ElasticObj import ElasticObj
+  File "F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\ElasticObj.py", line 13, in <module>
+    from elasticsearch_dsl import Search
+ModuleNotFoundError: No module named 'elasticsearch_dsl'
+2020-06-28 13:45:40,474 [INFO] [F:\developtool\python36\lib\site-packages\django\utils\autoreload.py] [trigger_reload ][django.utils.autoreload:222]- F:\developtool\python36\Lib\site-packages\elasticsearch\client\nodes.py changed, reloading.
+2020-06-28 13:46:41,353 [ERROR] [F:\developtool\python36\lib\site-packages\django\utils\log.py] [log_response ][django.request:228]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\github\Interface_GUI_0622\interface_frame\views.py", line 102, in main_GUI
+    from interface_frame import case_test_common
+  File "F:\github\Interface_GUI_0622\interface_frame\case_test_common.py", line 19, in <module>
+    from interface_frame.basic_config.common.cmp_res_req import CmpReqRes
+  File "F:\github\Interface_GUI_0622\interface_frame\basic_config\common\cmp_res_req.py", line 10, in <module>
+    from interface_frame.basic_config.utils.ElasticObj import ElasticObj
+  File "F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\ElasticObj.py", line 16, in <module>
+    from InterfaceTest.basic_config.utils.operation_cfg import OperationCFG
+ModuleNotFoundError: No module named 'InterfaceTest.basic_config'
+2020-06-28 13:47:51,285 [ERROR] [F:\developtool\python36\lib\site-packages\django\utils\log.py] [log_response ][django.request:228]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\github\Interface_GUI_0622\interface_frame\views.py", line 102, in main_GUI
+    from interface_frame import case_test_common
+  File "F:\github\Interface_GUI_0622\interface_frame\case_test_common.py", line 19, in <module>
+    from interface_frame.basic_config.common.cmp_res_req import CmpReqRes
+  File "F:\github\Interface_GUI_0622\interface_frame\basic_config\common\cmp_res_req.py", line 11, in <module>
+    from interface_frame.basic_config.utils.MongodbObj import MongodbObj
+  File "F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\MongodbObj.py", line 1, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+2020-06-28 14:05:22,843 [INFO] [F:\developtool\python36\lib\site-packages\django\utils\autoreload.py] [trigger_reload ][django.utils.autoreload:222]- F:\github\Interface_GUI_0622\interface_frame\views.py changed, reloading.
+2020-06-28 14:11:39,457 [ERROR] [F:\developtool\python36\lib\site-packages\django\utils\log.py] [log_response ][django.request:228]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\github\Interface_GUI_0622\interface_frame\views.py", line 102, in main_GUI
+    from interface_frame import case_test_common
+  File "F:\github\Interface_GUI_0622\interface_frame\case_test_common.py", line 19, in <module>
+    from interface_frame.basic_config.common.cmp_res_req import CmpReqRes
+  File "F:\github\Interface_GUI_0622\interface_frame\basic_config\common\cmp_res_req.py", line 13, in <module>
+    from interface_frame.basic_config.utils.OracleObj import OracleObj
+  File "F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\OracleObj.py", line 1, in <module>
+    import cx_Oracle
+  File "F:\developtool\python36\lib\site-packages\cx_Oracle\__init__.py", line 10, in <module>
+    from custom_exceptions import Warning, Error, InterfaceError, DatabaseError, DataError, OperationalError, IntegrityError, InternalError, ProgrammingError, NotSupportedError
+ModuleNotFoundError: No module named 'custom_exceptions'
+2020-06-28 14:18:15,198 [ERROR] [F:\developtool\python36\lib\site-packages\django\utils\log.py] [log_response ][django.request:228]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\github\Interface_GUI_0622\interface_frame\views.py", line 102, in main_GUI
+    from interface_frame import case_test_common
+  File "F:\github\Interface_GUI_0622\interface_frame\case_test_common.py", line 19, in <module>
+    from interface_frame.basic_config.common.cmp_res_req import CmpReqRes
+  File "F:\github\Interface_GUI_0622\interface_frame\basic_config\common\cmp_res_req.py", line 13, in <module>
+    from interface_frame.basic_config.utils.OracleObj import OracleObj
+  File "F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\OracleObj.py", line 1, in <module>
+    import cx_Oracle
+  File "F:\developtool\python36\lib\site-packages\cx_Oracle\__init__.py", line 10, in <module>
+    from custom_exceptions import Warning, Error, InterfaceError, DatabaseError, DataError, OperationalError, IntegrityError, InternalError, ProgrammingError, NotSupportedError
+ModuleNotFoundError: No module named 'custom_exceptions'
+2020-06-28 14:20:15,593 [ERROR] [F:\developtool\python36\lib\site-packages\django\utils\log.py] [log_response ][django.request:228]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\github\Interface_GUI_0622\interface_frame\views.py", line 102, in main_GUI
+    from interface_frame import case_test_common
+  File "F:\github\Interface_GUI_0622\interface_frame\case_test_common.py", line 19, in <module>
+    from interface_frame.basic_config.common.cmp_res_req import CmpReqRes
+  File "F:\github\Interface_GUI_0622\interface_frame\basic_config\common\cmp_res_req.py", line 13, in <module>
+    from interface_frame.basic_config.utils.OracleObj import OracleObj
+ImportError: cannot import name 'OracleObj'
+2020-06-28 14:22:20,425 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py] [read_data ][F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py:25]- 操作JSON类读取数据异常，异常原因：[Errno 2] No such file or directory: 'F:\\github\\Interface_GUI_0622\\static/write_config/run.json'
+2020-06-28 14:22:20,426 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py] [read_data ][F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py:25]- 操作JSON类读取数据异常，异常原因：[Errno 2] No such file or directory: 'F:\\github\\Interface_GUI_0622\\static/write_config/run.json'
+2020-06-28 14:22:20,426 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py] [get_data_for_key ][F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py:39]- 操作JSON类根据key获取value异常，异常原因：'NoneType' object is not subscriptable
+2020-06-28 14:22:20,426 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py] [read_data ][F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py:25]- 操作JSON类读取数据异常，异常原因：[Errno 2] No such file or directory: 'F:\\github\\Interface_GUI_0622\\static/write_config/run.json'
+2020-06-28 14:22:20,427 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py] [get_data_for_key ][F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py:39]- 操作JSON类根据key获取value异常，异常原因：'NoneType' object is not subscriptable
+2020-06-28 14:22:20,427 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py] [read_data ][F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py:25]- 操作JSON类读取数据异常，异常原因：[Errno 2] No such file or directory: 'F:\\github\\Interface_GUI_0622\\static/write_config/run.json'
+2020-06-28 14:22:20,427 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py] [get_data_for_key ][F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py:39]- 操作JSON类根据key获取value异常，异常原因：'NoneType' object is not subscriptable
+2020-06-28 14:22:20,428 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_cfg.py] [read_cfg ][__file__:31]- 读取cfg配置文件内容异常，异常原因：'NoneType' object is not iterable
+2020-06-28 14:22:20,428 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_cfg.py] [get_section_option_list ][__file__:82]- 读取配置文件指定段section下所有option列表出现异常，异常原因：No section: 'my_case_file'
+2020-06-28 14:22:20,563 [ERROR] [F:\developtool\python36\lib\site-packages\django\utils\log.py] [log_response ][django.request:228]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\github\Interface_GUI_0622\interface_frame\views.py", line 102, in main_GUI
+    from interface_frame import case_test_common
+  File "F:\github\Interface_GUI_0622\interface_frame\case_test_common.py", line 40, in <module>
+    filename = option_dict["case_filepath"]
+KeyError: 'case_filepath'
+2020-06-28 14:53:23,986 [INFO] [F:\developtool\python36\lib\site-packages\django\utils\autoreload.py] [trigger_reload ][django.utils.autoreload:222]- F:\github\Interface_GUI_0622\interface_frame\views.py changed, reloading.
+2020-06-28 14:55:26,618 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py] [read_data ][F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py:25]- 操作JSON类读取数据异常，异常原因：[Errno 2] No such file or directory: 'F:\\github\\Interface_GUI_0622\\static/write_config/run.json'
+2020-06-28 14:56:46,739 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py] [read_data ][F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py:25]- 操作JSON类读取数据异常，异常原因：[Errno 2] No such file or directory: 'F:\\github\\Interface_GUI_0622\\static/write_config/run.json'
+2020-06-28 14:56:46,739 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py] [get_data_for_key ][F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py:39]- 操作JSON类根据key获取value异常，异常原因：'NoneType' object is not subscriptable
+2020-06-28 14:56:47,247 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py] [read_data ][F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py:25]- 操作JSON类读取数据异常，异常原因：[Errno 2] No such file or directory: 'F:\\github\\Interface_GUI_0622\\static/write_config/run.json'
+2020-06-28 14:56:47,247 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py] [get_data_for_key ][F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py:39]- 操作JSON类根据key获取value异常，异常原因：'NoneType' object is not subscriptable
+2020-06-28 14:56:47,718 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py] [read_data ][F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py:25]- 操作JSON类读取数据异常，异常原因：[Errno 2] No such file or directory: 'F:\\github\\Interface_GUI_0622\\static/write_config/run.json'
+2020-06-28 14:56:47,719 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py] [get_data_for_key ][F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py:39]- 操作JSON类根据key获取value异常，异常原因：'NoneType' object is not subscriptable
+2020-06-28 14:56:48,399 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_cfg.py] [read_cfg ][__file__:31]- 读取cfg配置文件内容异常，异常原因：'NoneType' object is not iterable
+2020-06-28 14:56:49,123 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_cfg.py] [get_section_option_list ][__file__:82]- 读取配置文件指定段section下所有option列表出现异常，异常原因：No section: 'my_case_file'
+2020-06-28 15:03:16,284 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py] [read_data ][F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py:25]- 操作JSON类读取数据异常，异常原因：[Errno 2] No such file or directory: 'F:\\github\\Interface_GUI_0622\\static/write_config/run.json'
+2020-06-28 15:03:16,391 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py] [read_data ][F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py:25]- 操作JSON类读取数据异常，异常原因：[Errno 2] No such file or directory: 'F:\\github\\Interface_GUI_0622\\static/write_config/run.json'
+2020-06-28 15:03:16,391 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py] [get_data_for_key ][F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py:39]- 操作JSON类根据key获取value异常，异常原因：'NoneType' object is not subscriptable
+2020-06-28 15:06:49,420 [INFO] [F:\developtool\python36\lib\site-packages\django\utils\autoreload.py] [trigger_reload ][django.utils.autoreload:222]- F:\github\Interface_GUI_0622\interface_frame\views.py changed, reloading.
+2020-06-28 15:30:50,587 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py] [read_data ][F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py:25]- 操作JSON类读取数据异常，异常原因：[Errno 2] No such file or directory: 'F:\\github\\Interface_GUI_0622\\static/write_config/run.json'
+2020-06-28 15:30:59,178 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py] [read_data ][F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py:25]- 操作JSON类读取数据异常，异常原因：[Errno 2] No such file or directory: 'F:\\github\\Interface_GUI_0622\\static/write_config/run.json'
+2020-06-28 15:30:59,178 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py] [get_data_for_key ][F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py:39]- 操作JSON类根据key获取value异常，异常原因：'NoneType' object is not subscriptable
+2020-06-28 15:30:59,794 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py] [read_data ][F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py:25]- 操作JSON类读取数据异常，异常原因：[Errno 2] No such file or directory: 'F:\\github\\Interface_GUI_0622\\static/write_config/run.json'
+2020-06-28 15:30:59,794 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py] [get_data_for_key ][F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py:39]- 操作JSON类根据key获取value异常，异常原因：'NoneType' object is not subscriptable
+2020-06-28 15:31:00,115 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py] [read_data ][F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py:25]- 操作JSON类读取数据异常，异常原因：[Errno 2] No such file or directory: 'F:\\github\\Interface_GUI_0622\\static/write_config/run.json'
+2020-06-28 15:31:00,115 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py] [get_data_for_key ][F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py:39]- 操作JSON类根据key获取value异常，异常原因：'NoneType' object is not subscriptable
+2020-06-28 15:31:00,322 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_cfg.py] [read_cfg ][__file__:31]- 读取cfg配置文件内容异常，异常原因：'NoneType' object is not iterable
+2020-06-28 15:31:00,498 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_cfg.py] [get_section_option_list ][__file__:82]- 读取配置文件指定段section下所有option列表出现异常，异常原因：No section: 'my_case_file'
+2020-06-28 15:38:01,436 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py] [read_data ][F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_json.py:25]- 操作JSON类读取数据异常，异常原因：[Errno 2] No such file or directory: 'F:\\github\\Interface_GUI_0622\\static/write_config/run.json'
+2020-06-28 15:39:12,055 [INFO] [F:\developtool\python36\lib\site-packages\django\utils\autoreload.py] [trigger_reload ][django.utils.autoreload:222]- F:\github\Interface_GUI_0622\interface_frame\case_test_common.py changed, reloading.
+2020-06-28 15:40:56,605 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_cfg.py] [read_cfg ][__file__:31]- 读取cfg配置文件内容异常，异常原因：'gbk' codec can't decode byte 0x84 in position 37: illegal multibyte sequence
+2020-06-28 15:41:06,594 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_cfg.py] [get_section_option_list ][__file__:82]- 读取配置文件指定段section下所有option列表出现异常，异常原因：No section: 'my_case_file'
+2020-06-28 16:18:13,963 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_cfg.py] [read_cfg ][__file__:31]- 读取cfg配置文件内容异常，异常原因：'gbk' codec can't decode byte 0x84 in position 37: illegal multibyte sequence
+2020-06-28 16:18:15,729 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_cfg.py] [get_section_option_list ][__file__:82]- 读取配置文件指定段section下所有option列表出现异常，异常原因：No section: 'my_case_file'
+2020-06-28 16:18:15,840 [ERROR] [F:\developtool\python36\lib\site-packages\django\utils\log.py] [log_response ][django.request:228]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\github\Interface_GUI_0622\interface_frame\views.py", line 123, in main_GUI
+    from interface_frame import case_test_common
+  File "F:\github\Interface_GUI_0622\interface_frame\case_test_common.py", line 47, in <module>
+    sheetid_http = int(option_dict["case_sheetid"])
+KeyError: 'case_sheetid'
+2020-06-28 16:27:14,827 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_cfg.py] [read_cfg ][__file__:31]- 读取cfg配置文件内容异常，异常原因：'gbk' codec can't decode byte 0x84 in position 37: illegal multibyte sequence
+2020-06-28 16:27:16,316 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_cfg.py] [get_section_option_list ][__file__:82]- 读取配置文件指定段section下所有option列表出现异常，异常原因：No section: 'my_case_file'
+2020-06-28 16:27:16,429 [ERROR] [F:\developtool\python36\lib\site-packages\django\utils\log.py] [log_response ][django.request:228]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\github\Interface_GUI_0622\interface_frame\views.py", line 121, in main_GUI
+    from interface_frame import case_test_common
+  File "F:\github\Interface_GUI_0622\interface_frame\case_test_common.py", line 47, in <module>
+    sheetid_http = int(option_dict["case_sheetid"])
+KeyError: 'case_sheetid'
+2020-06-28 16:31:56,902 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_cfg.py] [read_cfg ][__file__:31]- 读取cfg配置文件内容异常，异常原因：'gbk' codec can't decode byte 0x84 in position 37: illegal multibyte sequence
+2020-06-28 16:32:00,397 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_cfg.py] [get_section_option_list ][__file__:82]- 读取配置文件指定段section下所有option列表出现异常，异常原因：No section: 'my_case_file'
+2020-06-28 16:32:00,506 [ERROR] [F:\developtool\python36\lib\site-packages\django\utils\log.py] [log_response ][django.request:228]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\github\Interface_GUI_0622\interface_frame\views.py", line 121, in main_GUI
+    from interface_frame import case_test_common
+  File "F:\github\Interface_GUI_0622\interface_frame\case_test_common.py", line 47, in <module>
+    sheetid_http = int(option_dict["case_sheetid"])
+KeyError: 'case_sheetid'
+2020-06-28 16:37:48,552 [INFO] [F:\developtool\python36\lib\site-packages\django\utils\autoreload.py] [trigger_reload ][django.utils.autoreload:222]- F:\github\Interface_GUI_0622\interface_frame\views.py changed, reloading.
+2020-06-28 16:57:50,210 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_cfg.py] [read_cfg ][__file__:31]- 读取cfg配置文件内容异常，异常原因：'gbk' codec can't decode byte 0x84 in position 37: illegal multibyte sequence
+2020-06-28 16:57:51,617 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_cfg.py] [get_section_option_list ][__file__:82]- 读取配置文件指定段section下所有option列表出现异常，异常原因：No section: 'my_case_file'
+2020-06-28 16:57:51,720 [ERROR] [F:\developtool\python36\lib\site-packages\django\utils\log.py] [log_response ][django.request:228]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\github\Interface_GUI_0622\interface_frame\views.py", line 124, in main_GUI
+    from interface_frame import case_test_common
+  File "F:\github\Interface_GUI_0622\interface_frame\case_test_common.py", line 47, in <module>
+    sheetid_http = int(option_dict["case_sheetid"])
+KeyError: 'case_sheetid'
+2020-06-28 16:57:51,766 [WARNING] [F:\developtool\python36\lib\site-packages\django\utils\log.py] [log_response ][django.request:228]- Not Found: /favicon.ico
+2020-06-28 17:00:49,044 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_cfg.py] [read_cfg ][__file__:31]- 读取cfg配置文件内容异常，异常原因：'gbk' codec can't decode byte 0x84 in position 37: illegal multibyte sequence
+2020-06-28 17:00:51,161 [ERROR] [F:\github\Interface_GUI_0622\interface_frame\basic_config\utils\operation_cfg.py] [get_section_option_list ][__file__:82]- 读取配置文件指定段section下所有option列表出现异常，异常原因：No section: 'my_case_file'
+2020-06-28 17:00:51,269 [ERROR] [F:\developtool\python36\lib\site-packages\django\utils\log.py] [log_response ][django.request:228]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\developtool\python36\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\github\Interface_GUI_0622\interface_frame\views.py", line 124, in main_GUI
+    from interface_frame import case_test_common
+  File "F:\github\Interface_GUI_0622\interface_frame\case_test_common.py", line 47, in <module>
+    sheetid_http = int(option_dict["case_sheetid"])
+KeyError: 'case_sheetid'

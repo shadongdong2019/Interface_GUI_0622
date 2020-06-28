@@ -1,0 +1,30 @@
+2020-06-22 15:58:15,122 [ERROR] [F:\github\Interface_Auto_GUI_20200619\venv\lib\site-packages\django\core\handlers\exception.py] [handle_uncaught_exception ][django.request:118]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\github\Interface_Auto_GUI_20200619\venv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\github\Interface_Auto_GUI_20200619\venv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\github\Interface_Auto_GUI_20200619\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\github\Interface_Auto_GUI_20200619\interface_frame\views.py", line 102, in main_GUI
+    from interface_frame import case_test_common
+  File "F:\github\Interface_Auto_GUI_20200619\interface_frame\case_test_common.py", line 14, in <module>
+    from interface_frame.basic_config.common.interface_run import InterfaceRun
+  File "F:\github\Interface_Auto_GUI_20200619\interface_frame\basic_config\common\interface_run.py", line 1, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+2020-06-22 16:10:27,416 [ERROR] [F:\github\Interface_Auto_GUI_20200619\venv\lib\site-packages\django\core\handlers\exception.py] [handle_uncaught_exception ][django.request:118]- Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\github\Interface_Auto_GUI_20200619\venv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\github\Interface_Auto_GUI_20200619\venv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\github\Interface_Auto_GUI_20200619\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\github\Interface_Auto_GUI_20200619\interface_frame\views.py", line 102, in main_GUI
+    from interface_frame import case_test_common
+  File "F:\github\Interface_Auto_GUI_20200619\interface_frame\case_test_common.py", line 14, in <module>
+    from interface_frame.basic_config.common.interface_run import InterfaceRun
+  File "F:\github\Interface_Auto_GUI_20200619\interface_frame\basic_config\common\interface_run.py", line 1, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
